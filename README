@@ -1,0 +1,1 @@
+Extend jQuery with a attrs() method which return all the attributes set on an element.
