@@ -30,7 +30,7 @@
 		// for contentEditable we check that it is really set due to IE
 		if (map.contentEditable) {
 			var div = document.createElement('<div />').appendChild(e);
-			if (!(div.innerHTML.toLowerCase().indexOf('contentEditable') !== -1)) {
+			if (!(div.innerHTML.toLowerCase().indexOf('contenteditable') !== -1)) {
 				delete map.contentEditable;
 			};
 		};
